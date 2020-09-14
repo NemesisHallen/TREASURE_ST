@@ -38,7 +38,7 @@ void menu(int valor){
 		glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
         glLoadIdentity (); 
         glScalef(scale, scale, scale);  
-		 glutWireTeapot(1.0);
+		 glutWireTeapot(1.5);
 		 glFlush (); 
 		 glutSwapBuffers();
 	}
